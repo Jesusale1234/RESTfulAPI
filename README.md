@@ -25,6 +25,8 @@ This project uses **MongoDB** as the main database system.
 
 5. In the future, the use of a RESTful API related to the restaurants will be developed!
 
+Version 1.0: GitHub repository created and MongoDB database created.
+
   
 
    
