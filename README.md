@@ -23,7 +23,31 @@ This project uses **MongoDB** as the main database system.
     Sushi Kyo,Japanese,Tokyo,4.7
     La Pizzeria,Italian,Rome,4.3
 
-5. In the future, the use of a RESTful API related to the restaurants will be developed!
+5. Install the required dependencies on your computer by typing the following command in your command line: npm i express mongoose nodemon dotenv
+6. Write the command "npm init" in your command line to create the project and define your preferences.
+7. Download the project and open it in an IDE of your preference.
+8. Download Postman to use the functionalities of the API.
+9. Write the command "npm start" in your command line to start the project.
+10. Use the multiple routes to make use of the API in Postman (you should locate in the Body menu, raw submenu to change some of the parameters). The routes are the following, with an example included:
+    - POST localhost:3000/api/post (Upload restaurants to the database)
+      <img width="1282" height="905" alt="Captura de pantalla 2025-10-09 181527" src="https://github.com/user-attachments/assets/abcb18c4-a43f-4494-ac0a-68cfa6ea3713" />
+
+    - GET localhost:3000/api/getAll (Show the total of restaurants included in the database)
+      <img width="1277" height="896" alt="Captura de pantalla 2025-10-09 181719" src="https://github.com/user-attachments/assets/01ebd70f-7f20-40fe-905f-5c0b4f37edb8" />
+      
+    - GET localhost:3000/api/getOne/... (Get a single restaurant's information by providing the ID of the restaurant instead of the points.)
+      <img width="1271" height="896" alt="Captura de pantalla 2025-10-09 181810" src="https://github.com/user-attachments/assets/6d4b5ead-bce4-4f35-906d-d0186603843b" />
+
+    - PATCH localhost:3000/api/update/... (Update a single restaurant's information by providing the ID and the parameters that will be modified).
+      <img width="1277" height="893" alt="Captura de pantalla 2025-10-09 182030" src="https://github.com/user-attachments/assets/11bc604f-8585-42e3-92e0-f75ecfdcfdb3" />
+
+    - DELETE localhost:3000/api/delete/... (Delete a single restaurant by providing the ID of the restaurant instead of the points.)
+      <img width="1267" height="866" alt="Captura de pantalla 2025-10-09 182158" src="https://github.com/user-attachments/assets/695600d9-a676-4dcc-905a-25b32fb3c1ce" />
+
+11. Check if the methods have been done in MongoDB Compass.
+
+
+Version 2.0: RESTful API created and functional with MongoDB database.
 
 Version 1.0: GitHub repository created and MongoDB database created.
 
