@@ -4,6 +4,14 @@
 Tattler is a database for managing restaurant information, designed as part of a project where users can register, rate, and comment on restaurants.  
 This project uses **MongoDB** as the main database system.
 
+## 💫 NEW FEATURES ADDED
+
+1. Search method: You can now search elements that are compatible with the introduced keywords. Here is an example of the functionality in Postman.
+<img width="1269" height="904" alt="Captura de pantalla 2025-10-12 161918" src="https://github.com/user-attachments/assets/bc238462-9619-47bd-b6d6-6bddd6c1ea5f" />
+
+2. Sorting method: It allows you to sort the complete database based on an introduced row and an ascending or descending order. An example of the functionality can be seen in the following image:
+<img width="1261" height="893" alt="Captura de pantalla 2025-10-12 162000" src="https://github.com/user-attachments/assets/f08096b7-a4c9-455b-82f2-5958f43df4fd" />
+
 ## ⚙️ Installation and Usage Instructions
 
 1. Install MongoDB Community Server and MongoDB Compass.
@@ -35,9 +43,6 @@ This project uses **MongoDB** as the main database system.
     - GET localhost:3000/api/getAll (Show the total of restaurants included in the database)
       <img width="1277" height="896" alt="Captura de pantalla 2025-10-09 181719" src="https://github.com/user-attachments/assets/01ebd70f-7f20-40fe-905f-5c0b4f37edb8" />
       
-    - GET localhost:3000/api/getOne/... (Get a single restaurant's information by providing the ID of the restaurant instead of the points.)
-      <img width="1271" height="896" alt="Captura de pantalla 2025-10-09 181810" src="https://github.com/user-attachments/assets/6d4b5ead-bce4-4f35-906d-d0186603843b" />
-
     - PATCH localhost:3000/api/update/... (Update a single restaurant's information by providing the ID and the parameters that will be modified).
       <img width="1277" height="893" alt="Captura de pantalla 2025-10-09 182030" src="https://github.com/user-attachments/assets/11bc604f-8585-42e3-92e0-f75ecfdcfdb3" />
 
@@ -46,6 +51,7 @@ This project uses **MongoDB** as the main database system.
 
 11. Check if the methods have been done in MongoDB Compass.
 
+Version 3.0: Sorting and general search methods included.
 
 Version 2.0: RESTful API created and functional with MongoDB database.
 
